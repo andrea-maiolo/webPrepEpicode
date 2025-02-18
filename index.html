@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTube</title>
+</head>
+
+<body>
+    <h1>Benvenuto nel servizio di music streaming MyTube</h1>
+    <div>
+        <form onsubmit="alert('Registrazione inviata con successo')">
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="nome" id="nome" required /><br />
+
+            <label for="cognome">Cognome</label>
+            <input type="text" placeholder="cognome" id="cognome" required /><br />
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="email" id="email" required /><br />
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password" required minlength="8" /><br />
+
+            <label for="dob">Data di nascita</label>
+            <input type="date" placeholder="dob" id=dob required /><br />
+
+            <label for="phoneNumber">Numero di cellulare</label>
+            <input type="number" id="phoneNumber" placeholder="phone number" required /><br />
+
+            <fieldset>
+                <legend>Seleziona i tuoi generi musicali preferiti:</legend>
+                <input type="checkbox" id="rock" name="genere">
+                <label for="rock">Rock</label><br>
+                <input type="checkbox" id="pop" name="genere">
+                <label for="pop">Pop</label><br>
+                <input type="checkbox" id="jazz" name="genere">
+                <label for="jazz">Jazz</label><br>
+                <input type="checkbox" id="classica" name="genere">
+                <label for="classica">Classica</label><br>
+                <input type="checkbox" id="hip-hop" name="genere">
+                <label for="hip-hop">Hip Hop</label><br>
+                <input type="checkbox" id="r&b" name="genere">
+                <label for="r&b">R&B</label><br>
+                <input type="checkbox" id="metal" name="genere">
+                <label for="metal">Metal</label><br>
+                <input type="checkbox" id="blues" name="genere">
+                <label for="blues">Blues</label><br>
+                <input type="checkbox" id="elettronica" name="genere">
+                <label for="elettronica">Elettronica</label><br>
+                <input type="checkbox" id="latin" name="genere">
+                <label for="latin">Latin</label><br>
+                <input type="checkbox" id="disco" name="genere">
+                <label for="disco">Disco</label><br>
+            </fieldset><br>
+
+            <label>Accetto i termini e condizioni</label>
+            <input type="radio" name="termini" required>
+            <br>
+
+
+            <button type="submit">Invia registrazione</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
